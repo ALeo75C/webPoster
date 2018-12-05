@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "layout.css";
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&subset=cyrillic');
+@font-face {
+  font-family: Balmy;
+
+  src: url(fonts/Balmy.ttf);
+}
