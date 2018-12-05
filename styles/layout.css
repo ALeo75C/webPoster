@@ -54,9 +54,9 @@ body {
 }
 h1 {
   position: absolute;
-  z-index: 10;
+  z-index: 11;
   right: 50px;
-  bottom: 160px;
+  bottom: 183px;
 
   width: 1000px;
   height: 269px;
@@ -73,21 +73,53 @@ h1 {
   z-index: 10;
   bottom: 0;
 
+  display: none;
+
   width: 100vw;
   height: 515px;
 
   opacity: 0;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.4);
 }
-/* #none:hover {
-  opacity: 0.3;
+.link {
+  position: absolute;
+  right: 50px;
+  bottom: 70px;
+
+  opacity: 0.7;
 }
-#none:hover + h1{
+.link a {
   color: #fff;
+
+  font-size: 100px;
 }
-#none:hover > .h2 {
-  opacity: 0.4;
+a:checked {
+  color: inherit;
+}
+.line {
+  width: 555px;
+  height: 16px;
+
+  border-radius: 50px;
+  background-color: #fff;
 }
 .shop {
-  display: none;
-} */
+  position: absolute;
+  bottom: 40px;
+  left: 65px;
+
+  display: flex;
+
+  align-items: center;
+}
+.shop p {
+  width: 370px;
+  margin-left: 15px;
+
+  font-size: 40px;
+}
+.shop img {
+  width: 174px;
+  height: 174px;
+  padding-top: 10px;
+}
